@@ -1,8 +1,8 @@
 // src/App.jsx
 import { ToastContainer } from 'react-toastify';
-import { ThemeProvider } from './context/ThemeContext';
 import { CalcProvider } from './context/CalcContext';
 import ModeSwitcher from './components/ModeSwitcher';
+import { ThemeProvider } from './context/themeContext';
 
 export default function App() {
   return (
